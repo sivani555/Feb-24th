@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main(){
+	int a,count,i;
+	scanf("%d",&a);
+	for(i=1;i<=a;i++){
+		if(a%i==0)
+		count=count+1;
+	}
+	printf(" no of factos:%d",count);
+}
